@@ -122,7 +122,7 @@ Form.prototype.moveRight = function(){
 		pos.x + this.elems.b.x + 1 <= 11 &&
 		pos.x + this.elems.c.x + 1 <= 11 &&
 		pos.x + this.elems.d.x + 1 <= 11 &&
-		this.canMove('right'
+		this.canMove('right')
 	){
 		game.position.x += SIZE;
 	}
